@@ -70,7 +70,7 @@ function sendMail(){
         number : document.getElementById("number").value,
         message : document.getElementById("message").value
     }
-        emailjs.send("service_oqtco58", "template_la7m2dh", params)
+        emailjs.send("service_49w1nge", "template_9kqt1rm", params)
         .then(() => {
             alert("Email Sent!!");
         })
